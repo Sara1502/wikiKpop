@@ -1,0 +1,1 @@
+Esse repositório é uma wiki sobre Girl Grops de Kpop
