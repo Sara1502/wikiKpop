@@ -31,7 +31,7 @@ section {
 }
 
 /* Estiliza os inputs dentro das seções */
-input {
+section input {
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
@@ -43,7 +43,7 @@ input {
 }
 
 /* Estiliza os botões dentro das seções */
-button {
+section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
@@ -54,7 +54,7 @@ button {
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
-button:hover {
+section button:hover {
     background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
@@ -119,7 +119,7 @@ footer {
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
 
-    input {
+    section input {
         width: 25rem; /* Largura dos inputs em telas menores */
         padding: 0.8rem; /* Espaçamento interno em telas menores */
     }
@@ -142,11 +142,11 @@ footer {
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
     }
 
-    input {
+    section input {
         width: 17rem; /* Largura total dos inputs em telas pequenas */
     }
 
-    button {
+    section button {
         padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
         font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
     }

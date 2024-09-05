@@ -1,1 +1,1 @@
-Esse repositório é uma wiki sobre Girl Grops de Kpop
+Esse repositório é uma wiki sobre o Girl Group de Kpop DREAMCATCHER
