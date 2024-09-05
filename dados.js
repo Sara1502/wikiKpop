@@ -23,7 +23,7 @@ let dados = [
         descricao : "Siyeon, também conhecida como Lee Siyeon, é a main vocalist do grupo. Nascida em 01/10/1995 na cidade de Daegu na Coreia do Sul.",
         link : "#",
         insta : "https://www.instagram.com/______s2ing/"
-    },,
+    },
     {
         titulo : "Handong",
         descricao : "Handong, também conhecida como Han dong, é a sub-vocalist do grupo. Nascida em 26/03/1996 na cidade de Wuhan na China, sendo a unica membro não coreana do grupo.",
