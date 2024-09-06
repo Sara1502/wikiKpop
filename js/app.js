@@ -21,7 +21,7 @@ function pesquisar() {
         if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)){
             resultados += `
                 <div class="item-resultado">
-                    <h2>${dado.titulo}</h2>
+                    <a href=${dado.link}><h2>${dado.titulo}</h2></a>
                     <p class="descricao-meta">${dado.descricao}</p>
                     <a href=${dado.insta}, target="_blank">
                         Instagram
