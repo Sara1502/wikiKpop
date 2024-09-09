@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-    background-color: #000000;
+    background-image: url('../img/dc.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
     display: flex;
-    background-color: #000000;
-    color: #1b1b1b;
+    background-color: #00000072;
+    color: #ffffff;
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
@@ -18,26 +21,42 @@ body {
     flex: 3;
     padding: 20px;
     padding-top: 20px;
-    color: #f0f0f0;
+    color: #ffffff;
+}
+
+.main-content h1, h2 {
+    color: #ffffff;
+}
+
+.main-content P {
+    color: #ffffff;
+    padding-right: 50px;
+    padding-left: 62px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
 }
 
 .sidebar {
     flex: 1;
-    background-color: #525456;
-    padding: 20px;
-    opacity: 0.8; 
+    background-color: #90391c;
+    padding: 15px;
+    padding-top: 10px;
 }
 
-.translucent {
-    opacity: 0.9; /* Ajuste o valor de 0 a 1 para controlar a transparência */
-    background-color: #525456; /* Cor de fundo da seção */
-  }
-
-.main-content h1 {
+.sidebar h2 {
+    text-align: center;
     color: #eec051;
 }
 
-.main-content P {
-    color: #90391c;
-    padding-right: 50px;
+.sidebar b {
+    color: #eec051;
 }
+
+
+.sidebar img {
+    width: 300px;
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border: 2px solid #ccc;
+  }
