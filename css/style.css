@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -37,14 +38,29 @@ body {
     text-align: left;
 }
 
+.main-content a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #eec051; /* Cor do texto dos links */
+}
+
 .sidebar {
     flex: 1;
+    
     background-color: #90391c;
     padding: 15px;
     padding-top: 10px;
 }
 
+.sidebar e {
+    color: #90391c;
+}
+
 .sidebar h2 {
+    text-align: center;
+    color: #eec051;
+}
+
+.sidebar h3 {
     text-align: center;
     color: #eec051;
 }
@@ -53,6 +69,10 @@ body {
     color: #eec051;
 }
 
+.sidebar a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #000000; /* Cor do texto dos links */
+}
 
 .sidebar img {
     width: 300px;
