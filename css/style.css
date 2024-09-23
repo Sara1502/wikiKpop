@@ -79,3 +79,11 @@ body {
     margin: 0 auto; /* Centraliza horizontalmente */
     border: 2px solid #ccc;
   }
+
+
+.logo img {
+    width: 200px;
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-left: 50px;    
+  }
